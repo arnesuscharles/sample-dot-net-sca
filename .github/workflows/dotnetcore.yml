@@ -34,7 +34,7 @@ jobs:
         with:
           project: 'sca-eshop'
           path: '.'
-          format: 'JSON'
+          format: 'HTML'
 
       - name: Upload Test results
         uses: actions/upload-artifact@master
